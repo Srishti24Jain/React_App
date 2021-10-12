@@ -18,7 +18,7 @@ function Sidebar(){
         </a>
         <div className={`mt-5`}>
           <a
-            href="#"
+            href
             className={`border rounded-full py-2 px-4 text-xs font-semibold text-gray-700`}
           >
             Manage your Account
@@ -26,7 +26,7 @@ function Sidebar(){
         </div>
       </div>
       <div className={`border-b`}>
-        <a href="#" className={`px-4 py-2 hover:bg-gray-500 flex`}>
+        <a href className={`px-4 py-2 hover:bg-gray-500 flex`}>
           <div className={`text-gray-800`}>
             <svg
               xmlns="http://www.w3.org/2000/svg"

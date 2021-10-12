@@ -6,7 +6,7 @@ function Navbar(){
         <div className={`flex justify-between`}>
             <div>
               
-                <a href="#" className={`flex items-center text-3xl`}>Repozitory </a>
+                <a href className={`flex items-center text-3xl`}>Repozitory </a>
 
             </div>
             </div>

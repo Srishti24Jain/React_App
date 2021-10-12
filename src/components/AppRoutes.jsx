@@ -6,6 +6,7 @@ import Personal from './EmployeeInformation';
 
 function Routes(){
     return(
+        <Router>
         <Switch>
         <Route path="/" exact>
     <Table />
@@ -24,6 +25,7 @@ function Routes(){
           
 
         </Switch>
+        </Router>
     );
 }
 
